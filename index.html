@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sponsor Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="index.html">
+        <div class="form">
+            <h1>Sponsor Registration</h1>
+            <div class="container">
+                <div class="box" id="left">
+                    <div class="input">
+                        <label for="prefix">Prefix<span>*</span></label>
+                        <input type="text" name="prefix" id="prefix" required>
+                    </div>
+
+                    <div class="input">
+                        <label for="name">Full Name<span>*</span></label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+
+                    <div class="input">
+                        <label for="pronouns">Preferred Pronouns</label>
+                        <input type="text" name="pronouns" id="pronouns" size="10">
+                    </div>
+
+                    <div class="input">
+                        <label for="email">Email<span>*</span></label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+
+                    <div class="input">
+                        <label for="workPhone">Work Phone<span>*</span></label>
+                        <input type="number" name="workPhone" id="workPhone" required>
+                    </div>
+
+                    <div class="input">
+                        <label for="cellPhone">Cell Phone<span>*</span></label>
+                        <input type="number" name="cellPhone" id="cellPhone" required>
+                    </div>
+
+                    <div class="input">
+                        <label for="jobTitle">Job Title<span>*</span></label>
+                        <input type="text" name="jobTitle" id="jobTitle" required>
+                    </div>
+
+                    <div class="input">
+                        <label for="company">Company<span>*</span></label>
+                        <input type="text" name="company" id="company" required>
+                    </div>
+
+                    <div>
+                        <label for="fullBusinessAddress">Full Business Address<span>*</span></label>
+                        <input type="text" name="fullBusinessAddress" id="fullBusinessAddress" size="39" required>
+                    </div>
+
+                    <div>
+                        <label for="companyWebsite">Company Website</label>
+                        <input type="text" name="companyWebsite" id="companyWebsite" size="39">
+                    </div>
+                </div>
+                <div class="box" id="right">
+                    <div>
+                        <label for="companyDescription">Company Description</label>
+                        <br>
+                        <textarea name="companyDescription" id="" cols="40" rows="4"></textarea>
+                    </div>
+
+                    <div>
+                        <label for="facebook">Company Facebook Page</label>
+                        <br>
+                        <input type="text" name="facebook" id="facebook" size="38">
+                    </div>
+
+                    <div>
+                        <label for="twitter">Company Twitter Handle</label>
+                        <br>
+                        <input type="text" name="twitter" id="twitter" size="38">
+                    </div>
+
+                    <div>
+                        <label for="linkedin">Company linkedIn Handle</label>
+                        <br>
+                        <input type="text" name="linkedin" id="linkedin" size="38">
+                    </div>
+
+                    <div>
+                        <label>Sponsorship Level<span>*</span></label>
+                        <br>
+                        <input type="radio" name="sponsorshipLevel" id="sponsorshipLevel">
+                        <label>Gold</label>
+                        <br>
+                        <input type="radio" name="sponsorshipLevel" id="sponsorshipLevel">
+                        <label>Diamond</label>
+                        <br>
+                        <input type="radio" name="sponsorshipLevel" id="sponsorshipLevel">
+                        <label>Platinum</label>
+                    </div>
+
+                    <div>
+                        <label for="additionalGuest">Additional Guests (name, email)</label>
+                        <br>
+                        <input type="text" name="additionalGuest" id="additionalGuest" size="38">
+                    </div>
+                    <button type="submit" class="btn">Submit</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
