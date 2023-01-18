@@ -5,114 +5,105 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sponsor Registration</title>
+    <title> Student Registration Form </title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <form action="index.html">
-        <div class="form">
-            <h1>Sponsor Registration</h1>
-            <div class="container">
-                <div class="box" id="left">
-                    <div class="input">
-                        <label for="prefix">Prefix<span>*</span></label>
-                        <input type="text" name="prefix" id="prefix" required>
+    <section class="registration-container">
+        <h2> Student Registration </h2>
+        <section class="details-section">
+            <form action="" class="registration-form">
+                <!-- Personal Details Section -->
+                <h4> Personal Details </h4>
+                <section class="personal-details">
+                    <div class="three-details-item">
+                        <label for="name">
+                            <p>Full Name</p>
+                            <input type="text" name="name" id="name" placeholder="Enter your name">
+                        </label>
+                        <label for="fName">
+                            <p> Father Name </p>
+                            <input type="text" name="fName" id="fName" placeholder="Enter father name">
+                        </label>
+                        <label for="mName">
+                            <p>Mother Name</p>
+                            <input type="text" name="mName" id="mName" placeholder="Enter mother name">
+                        </label>
                     </div>
 
-                    <div class="input">
-                        <label for="name">Full Name<span>*</span></label>
-                        <input type="text" name="name" id="name" required>
+                    <div class="three-details-item">
+                        <label for="DOB">
+                            <p>Date of Birth</p>
+                            <input type="date" name="DOB" id="DOB" placeholder="Enter your DOB" style="width: 12.6em;">
+                        </label>
+                        <label for="cnic">
+                            <p>CNIC Number</p>
+                            <input type="number" name="cnic" id="cnic" placeholder="CNIC Number">
+                        </label>
+                        <label for="email">
+                            <p>Email</p>
+                            <input type="email" name="email" id="email" placeholder="Enter your email">
+                        </label>
                     </div>
 
-                    <div class="input">
-                        <label for="pronouns">Preferred Pronouns</label>
-                        <input type="text" name="pronouns" id="pronouns" size="10">
-                    </div>
+                    <div class="three-details-item">
+                        <label for="ph">
+                            <p> Mobile Number</p>
+                            <input type="tel" name="phone" id="ph" placeholder="Enter mobile number">
+                        </label>
 
-                    <div class="input">
-                        <label for="email">Email<span>*</span></label>
-                        <input type="email" name="email" id="email" required>
-                    </div>
+                        <label for="gender">
+                            <p> Gender</p>
+                            <input type="text" name="gender" id="gender" placeholder="Enter your gender">
+                        </label>
 
-                    <div class="input">
-                        <label for="workPhone">Work Phone<span>*</span></label>
-                        <input type="number" name="workPhone" id="workPhone" required>
+                        <label for="address">
+                            <p> Address </p>
+                            <input type="text" name="address" id="address" placeholder="Enter your Address">
+                        </label>
                     </div>
+                </section>
 
-                    <div class="input">
-                        <label for="cellPhone">Cell Phone<span>*</span></label>
-                        <input type="number" name="cellPhone" id="cellPhone" required>
-                    </div>
+                <hr>
 
-                    <div class="input">
-                        <label for="jobTitle">Job Title<span>*</span></label>
-                        <input type="text" name="jobTitle" id="jobTitle" required>
+                <!-- Identity Details Section -->
+                <h4> Other Details </h4>
+                <section class="identity-details">
+                    <div class="three-details-item">
+                        <label for="stream">
+                            <p> Stream </p>
+                            <input type="text" name="stream" id="stream" placeholder="Enter your stream">
+                        </label>
+                        <label for="previousClass">
+                            <p> Previous Class </p>
+                            <input type="text" name="previousClass" id="previousClass"
+                                placeholder="Enter previous class">
+                        </label>
+                        <label for="hobbies">
+                            <p> Hobbies </p>
+                            <input type="text" name="hobbies" id="hobbies" placeholder="Enter your hobbies">
+                        </label>
                     </div>
-
-                    <div class="input">
-                        <label for="company">Company<span>*</span></label>
-                        <input type="text" name="company" id="company" required>
+                    <div class="three-details-item">
+                        <label for="accNo">
+                            <p> Account Number </p>
+                            <input type="number" name="accNo" id="accNo" placeholder="Enter account number">
+                        </label>
+                        <label for="religion">
+                            <p> Religion </p>
+                            <input type="text" name="religion" id="religion" placeholder="Enter your religion">
+                        </label>
+                        <label for="category">
+                            <p> Category </p>
+                            <input type="text" name="category" id="category" placeholder="Enter your category">
+                        </label>
                     </div>
-
-                    <div>
-                        <label for="fullBusinessAddress">Full Business Address<span>*</span></label>
-                        <input type="text" name="fullBusinessAddress" id="fullBusinessAddress" size="39" required>
-                    </div>
-
-                    <div>
-                        <label for="companyWebsite">Company Website</label>
-                        <input type="text" name="companyWebsite" id="companyWebsite" size="39">
-                    </div>
-                </div>
-                <div class="box" id="right">
-                    <div>
-                        <label for="companyDescription">Company Description</label>
-                        <br>
-                        <textarea name="companyDescription" id="" cols="40" rows="4"></textarea>
-                    </div>
-
-                    <div>
-                        <label for="facebook">Company Facebook Page</label>
-                        <br>
-                        <input type="text" name="facebook" id="facebook" size="38">
-                    </div>
-
-                    <div>
-                        <label for="twitter">Company Twitter Handle</label>
-                        <br>
-                        <input type="text" name="twitter" id="twitter" size="38">
-                    </div>
-
-                    <div>
-                        <label for="linkedin">Company linkedIn Handle</label>
-                        <br>
-                        <input type="text" name="linkedin" id="linkedin" size="38">
-                    </div>
-
-                    <div>
-                        <label>Sponsorship Level<span>*</span></label>
-                        <br>
-                        <input type="radio" name="sponsorshipLevel" id="sponsorshipLevel">
-                        <label>Gold</label>
-                        <br>
-                        <input type="radio" name="sponsorshipLevel" id="sponsorshipLevel">
-                        <label>Diamond</label>
-                        <br>
-                        <input type="radio" name="sponsorshipLevel" id="sponsorshipLevel">
-                        <label>Platinum</label>
-                    </div>
-
-                    <div>
-                        <label for="additionalGuest">Additional Guests (name, email)</label>
-                        <br>
-                        <input type="text" name="additionalGuest" id="additionalGuest" size="38">
-                    </div>
-                    <button type="submit" class="btn">Submit</button>
-                </div>
-            </div>
-        </div>
-    </form>
+                </section>
+                <button class="submit-btn"> Submit </button>
+            </form>
+        </section>
+    </section>
 </body>
 
 </html>
